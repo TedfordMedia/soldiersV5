@@ -52,6 +52,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -886,7 +887,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -922,7 +923,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1001 &8073035210095745856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1498,19 +1499,23 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.5885475
       objectReference: {fileID: 0}
-    - target: {fileID: 114046840462155538, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+    - target: {fileID: 114046840462155538, guid: 479b87dc84c33194ca98c2d93c379dae,
+        type: 3}
       propertyPath: fireChance3outof5
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 205095949779954604, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+    - target: {fileID: 205095949779954604, guid: 479b87dc84c33194ca98c2d93c379dae,
+        type: 3}
       propertyPath: m_LODs.Array.data[4].screenRelativeHeight
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 205705090151076088, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+    - target: {fileID: 205705090151076088, guid: 479b87dc84c33194ca98c2d93c379dae,
+        type: 3}
       propertyPath: m_LODs.Array.data[4].screenRelativeHeight
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 205773749271163476, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+    - target: {fileID: 205773749271163476, guid: 479b87dc84c33194ca98c2d93c379dae,
+        type: 3}
       propertyPath: m_LODs.Array.data[4].screenRelativeHeight
       value: 0
       objectReference: {fileID: 0}
@@ -1518,17 +1523,20 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
 --- !u!1 &8073907652932816852 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1520605633713300, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1520605633713300, guid: 479b87dc84c33194ca98c2d93c379dae,
+    type: 3}
   m_PrefabInstance: {fileID: 8073035210095745856}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8077501031670742410 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4541689099167434, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4541689099167434, guid: 479b87dc84c33194ca98c2d93c379dae,
+    type: 3}
   m_PrefabInstance: {fileID: 8073035210095745856}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &8186420694162785362 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114046840462155538, guid: 479b87dc84c33194ca98c2d93c379dae, type: 3}
+  m_CorrespondingSourceObject: {fileID: 114046840462155538, guid: 479b87dc84c33194ca98c2d93c379dae,
+    type: 3}
   m_PrefabInstance: {fileID: 8073035210095745856}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
