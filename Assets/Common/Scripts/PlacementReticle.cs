@@ -100,4 +100,8 @@ public class PlacementReticle : MonoBehaviour
     {
         return m_SpawnedReticle.transform;
     }
+    public void HideReticle()
+    {
+        m_SpawnedReticle.SetActive(false);
+    }
 }
