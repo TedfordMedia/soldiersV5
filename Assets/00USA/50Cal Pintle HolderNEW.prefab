@@ -506,12 +506,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.CollisionEvent
+        - HutongGames.PlayMaker.Actions.DebugLog
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: beb33100
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: beb331009c59e501
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -542,6 +544,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: HELLO BULLET HIT CAPSULE
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -562,12 +570,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        byteData: 00000000
+        byteData: 000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000070000001200000017000000130000000f000000
+        paramDataType: 14000000070000001200000017000000130000000f000000070000001200000001000000
         paramName:
         - gameObject
         - collision
@@ -575,8 +583,11 @@ MonoBehaviour:
         - sendEvent
         - storeCollider
         - storeForce
-        paramDataPos: 000000000000000000000000000000000000000000000000
-        paramByteDataSize: 000000000400000000000000000000000000000000000000
+        - logLevel
+        - text
+        - sendToUnityLog
+        paramDataPos: 000000000000000000000000000000000000000000000000040000000100000008000000
+        paramByteDataSize: 000000000400000000000000000000000000000000000000040000000000000001000000
     - name: State 2
       description: 
       colorIndex: 0
